@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.UI {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background: blueviolet;
+    height: 64px;
+}
+
+.main {
+    background: wheat;
+    flex: 1;
+}
+
+.footer {
+    background: blueviolet;
+    height: 64px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.bar {
+    flex: 1;
+
+}
+
+.ops {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.itemsearch {
+    padding: 5px;
+    background: violet
+}
+
+

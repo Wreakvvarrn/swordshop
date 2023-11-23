@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    height: 100vh;
+    background: wheat;
+    display: flex;
+}
+
+.left {
+    background: green;
+    flex-grow: 1;
+}
+
+.right {
+    background: orangered;
+    flex-grow: 1;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    flex-grow: 1;
+    height: 50vh;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+}
